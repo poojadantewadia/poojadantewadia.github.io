@@ -1,0 +1,77 @@
+* {
+  font-family: "Alegreya Sans", sans-serif;
+  font-family: "Literata", serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html, body {
+  font-size: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.banner-image {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.card {
+  border-radius: 1rem;
+  overflow: hidden;
+  aspect-ratio: 1;
+  cursor: pointer;
+  color: #000;
+}
+
+.details {
+  padding-top: 2rem;
+  background-color: #fff;
+}
+
+.details .information {
+  font-size: 1.2rem;
+}
+.description {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+#title-menu {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.margin-right-4 {
+  margin-right: 4rem;
+}
+
+#title {
+  margin-top: 5rem;
+  justify-content: space-between;
+  position: relative;
+}
+
+#name-and-icons svg {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+#footer {
+  text-align: right;
+  padding-bottom: 4rem;
+}
+
+#footer svg {
+  margin-right: 1rem;
+  cursor: pointer;
+}
